@@ -193,3 +193,95 @@ header {
     font-size: 14px;
     text-transform: uppercase;
 }
+.menu {
+    margin-top: 64px;
+}
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-title {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1B2A49;
+}
+.menu-select {
+    border: 1px solid #DEDEDE;
+    padding: 13px 30px;
+    border-radius: 22px;
+    color: #443737;
+    font-size: 15px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../images/arrow.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 89% center;
+    cursor: pointer;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 49px 20px;
+}
+.menu-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-grid-cover {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+.menu-grid-cover img {
+    width: 100%;
+    height: 430px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+.menu-grid-title {
+    color: #1B2A49;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 22px 0 0 0;
+}
+.menu-grid-price {
+    color: #979797;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+}
+.menu-grid-btn {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    background-color: #FBB731;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    padding: 10px 34px 10px 28px;
+    margin: 22px 0 0 0;
+    width: 152px;
+    cursor: pointer;
+}
+.menu-grid-icon {
+    background-image: url(../images/menu-cart.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.menu-grid-text {
+    text-transform: uppercase;
+    color: #1E2F40;
+    font-size: 14px;
+    font-weight: 700;
+}
