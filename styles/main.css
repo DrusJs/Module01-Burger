@@ -149,8 +149,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 438px;
-    padding: 98px 0 0 100px;
+    padding: 100px;
     box-sizing: border-box;
     color: #FFFFFF;
 }
