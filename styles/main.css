@@ -384,7 +384,7 @@ header {
     bottom: 20px;
     right: 20px;
     border-radius: 5px;
-    transition: 1s;
+    transition: 0.6s;
 }
 .button-up:hover {
     background-color: #F37335;
