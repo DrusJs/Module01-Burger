@@ -46,6 +46,7 @@ header {
     font-size: 20px;
     color: #443737;
     text-decoration: none;
+    cursor: pointer;
 }
 .header-nav a:hover {
     color: #FFC725;
@@ -119,6 +120,7 @@ header {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    cursor: pointer;
 }
 .breadcrumbs a:hover {
     color: #FFC725;
@@ -193,6 +195,7 @@ header {
     color: #1E2F40;
     border-radius: 5px;
     font-weight: 700;
+    cursor: pointer;
     border: 1px solid #FBB731;
 }
 .banner-link:hover {
@@ -337,6 +340,7 @@ header {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
+    cursor: pointer;
 }
 .footer-link:hover {
     color: #FBB731;
